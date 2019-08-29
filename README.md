@@ -1,3 +1,4 @@
+Good work! You could use more comments (you don't have any!!) and it looks like all of the code is in index.py. For the future consider working in seperate files then calling them in main. Score : 5
 # python-review2-cw
 
 Create a task list. A user is presented with the text below. Let them select an option to list all of their tasks, add a task to their list, delete a task, or quit the program. Make each option a different function in your program. Do <strong>NOT</strong> use Google. Do <strong>NOT</strong> use other students. Try to do this on your own.
