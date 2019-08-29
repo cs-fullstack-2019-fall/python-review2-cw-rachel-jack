@@ -4,6 +4,9 @@ userInput = ""
 def addTask():
     newTask = input("Enter a new task to add to your list.")
     arrayOfTasks.append(newTask)
+def listTask(array):
+    for x in array:
+        print(x)
 
 while userInput != 0 :
     userInput = int(input(f'What would you like to do next?'
@@ -11,6 +14,9 @@ while userInput != 0 :
                       f'2. Add a task to the list.'
                       f'3. Delete a task.'
                       f'0. To quit the program'))
+    if userInput == 1:
+        listTask(arrayOfTasks)
+
     if userInput == 2:
         addTask()
 
