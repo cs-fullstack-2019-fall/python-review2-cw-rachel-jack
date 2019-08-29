@@ -14,6 +14,8 @@ while userInput != 0 :
     if userInput == 2:
         addTask()
 
+
+
 print (arrayOfTasks[0])
 
 
