@@ -18,7 +18,10 @@ def listTask(array):
 
 def deleteTask(array):
     userIn = input("Which task to delete?")
-    array.remove(userIn)
+    if userIn in array:
+        array.remove(userIn)
+    else:
+        print("That task is not available.")
 
 
 while userInput != 0:
